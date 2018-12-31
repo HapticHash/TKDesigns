@@ -1,16 +1,18 @@
 @import 'https://cdn.staticaly.com/gh/harshitks2203/TKDesigns/05c4160e/css/fontline.css';
-
-h1{
-    font-family: 'USHeavy', sans-serif;
-    text-align: center;
+*{
+    background-color: #fff;
 }
 
-h2{
-    font-family: 'USBold', sans-serif;
-    text-align: center;
+.top {
+    background-image: url("../images/shoe1.png")
 }
 
-h3{
-    font-family: 'USRegular', sans-serif;
-    text-align: center;
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+ .navbar-inner {
+    background:transparent;
+    z-index: 99;
 }
