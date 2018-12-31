@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'USBold';
+  src: url('./fonts/UniSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'USRegular';
+  src: url('./fonts/UniSansRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'USHeavy';
+  src: url('./fonts/UniSansHeavy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'USSemiBold';
+  src: url('./fonts/UniSansSemiBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
