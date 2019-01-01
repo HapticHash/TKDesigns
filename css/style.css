@@ -1,18 +1,37 @@
 @import 'https://cdn.staticaly.com/gh/harshitks2203/TKDesigns/05c4160e/css/fontline.css';
 *{
     background-color: #fff;
+    font-family: 'USRegular', sans-serif;
 }
 
-.top {
+body {
+    overflow-x: hidden;
+    
+  }
+
+.bgimg {
     background-image: url("../images/shoe1.png")
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'USRegular', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #eee;
 }
 
 .nopadding {
     padding: 0 !important;
     margin: 0 !important;
- }
+}
 
- .navbar-inner {
-    background:transparent;
-    z-index: 99;
+.navbar-inner {
+    background-color:transparent;
+    z-index: 2;
+    background-image: url("../images/shoe1.png")
+}
+
+.search{
+    background-color: #0b1f1a;
+    float: right;
 }
