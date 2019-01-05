@@ -41,6 +41,20 @@
 }
 
 @font-face {
+  font-family: 'USHeavyItalic';
+  src: url('./fonts/UniSansHeavyItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'USHeavyItalic1';
+  src: url('./fonts/UniSansHeavyItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
   font-family: 'USBoldItalic';
   src: url('./fonts/UniSansBoldItalic.woff') format('woff');
   font-weight: normal;
@@ -95,4 +109,4 @@
   src: url('./fonts/UniSansSemiBoldItalic.woff2') format('woff2');
   font-weight: normal;
   font-style: italic;
-}
+} */
