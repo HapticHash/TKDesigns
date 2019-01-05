@@ -13,6 +13,20 @@
 }
 
 @font-face {
+  font-family: 'USThin';
+  src: url('./fonts/UniSansThin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'USThin';
+  src: url('./fonts/UniSansThin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'USHeavy';
   src: url('./fonts/UniSansHeavy.woff') format('woff');
   font-weight: normal;
@@ -24,4 +38,61 @@
   src: url('./fonts/UniSansSemiBold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'USBoldItalic';
+  src: url('./fonts/UniSansBoldItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'USBoldItalic';
+  src: url('./fonts/UniSansBoldItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'USThinItalic';
+  src: url('./fonts/UniSansThinItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'USThinItalic';
+  src: url('./fonts/UniSansThinItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'USHeavyItalic';
+  src: url('./fonts/UniSansHeavyItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'USHeavyItalic';
+  src: url('./fonts/UniSansHeavyItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'USSemiBoldItalic';
+  src: url('./fonts/UniSansSemiBoldItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'USSemiBoldItalic';
+  src: url('./fonts/UniSansSemiBoldItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
 }
