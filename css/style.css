@@ -131,6 +131,7 @@ body {
     font-weight: 900;
     letter-spacing: -0.2px;
     font-size: 5rem;
+    color: #000;
 }
 .trans {
     background-color: transparent !important;
