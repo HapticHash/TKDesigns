@@ -41,8 +41,22 @@
 }
 
 @font-face {
-  font-family: 'USSemiHeavyItalic';
-  src: url('./fonts/UniSansHeavyItalic.woff') format('woff');
+  font-family: 'USBook';
+  src: url('./fonts/Fontfabric-UniSans-Book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'USThin';
+  src: url('./fonts/Fontfabric-UniSans-Thin.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'USLight';
+  src: url('./fonts/Fontfabric-UniSans-Light.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
