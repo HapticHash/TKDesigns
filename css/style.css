@@ -145,19 +145,24 @@ button:focus {outline:0 !important;}
 
 .shoeLeft{
     width: 100%;
-    margin-left: -5.2rem;
+    margin-left: -6.2rem;
 }
 
+.nmd {
+    margin-left: -35%;
+    margin-top: 28%;
+    z-index: -1;
+}
 .heavy{
     float: left;
     font-family: 'USHeavy', sans-serif , -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
-    
 }
 
 .light{
     float: left;
     font-family: 'USRegular', sans-serif , -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
     font-size: 5rem;
+    margin-left: 50%;
 }
 
 .shoeRight{
