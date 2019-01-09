@@ -1,48 +1,48 @@
 @font-face {
   font-family: 'USBold';
-  src: url('./fonts/uni-sans-bold-webfont.woff') format('woff'), url('./fonts/uni-sans-bold-webfont.woff2') format('woff2') ;
+  src: url('./fonts/UniSansBold.woff') format('woff'), url('./fonts/UniSansBold.woff2') format('woff2') ;
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'USRegular';
-  src: url('./fonts/uni-sans-regular-webfont.woff') format('woff'), url('./fonts/uni-sans-regular-webfont.woff2') format('woff2');
+  src: url('./fonts/UniSansRegular.woff') format('woff'), url('./fonts/UniSansRegular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'USThin';
-  src: url('./fonts/uni-sans-thin-webfont.woff') format('woff'), url('./fonts/uni-sans-thin-webfont.woff2') format('woff2');
+  src: url('./fonts/UniSansThin.woff') format('woff'), url('./fonts/UniSansThin.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'USLight';
-  src: url('./fonts/uni-sans-light-webfont.woff') format('woff'), url('./fonts/uni-sans-light-webfont.woff2') format('woff2');
+  src: url('./fonts/UniSansLight.woff') format('woff'), url('./fonts/UniSansLight.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'USHeavy';
-  src: url('./fonts/UniSansHeavy.woff') format('woff');
+  src: url('./fonts/UniSansHeavy.woff') format('woff'), url('./fonts/UniSansHeavy.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'USSemiBold';
-  src: url('./fonts/uni-sans-semibold-webfont.woff') format('woff'), url('./fonts/uni-sans-semibold-webfont.woff2') format('woff2');
+  src: url('./fonts/UniSansSemibold.woff') format('woff'), url('./fonts/UniSansSemibold.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'USBook';
-  src: url('./fonts/uni-sans-book-webfont.woff') format('woff'), url('./fonts/uni-sans-book-webfont.woff2') format('woff2');
+  src: url('./fonts/UniSansBook.woff') format('woff'), url('./fonts/UniSansBook.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -51,60 +51,42 @@
 
 @font-face {
   font-family: 'USBoldItalic';
-  src: url('./fonts/uni-sans-bold-italic-webfont.woff') format('woff'), url('./fonts/uni-sans-bold-italic-webfont.woff2') format('woff2') ;
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'USRegularItalic';
-  src: url('./fonts/uni-sans-regular-italic-webfont.woff') format('woff'), url('./fonts/uni-sans-regular-italic-webfont.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'USThinItalic';
-  src: url('./fonts/uni-sans-thin-italic-webfont.woff') format('woff'), url('./fonts/uni-sans-thin-italic-webfont.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'USLightItalic';
-  src: url('./fonts/uni-sans-light-italic-webfont.woff') format('woff'), url('./fonts/uni-sans-light-italic-webfont.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'USSemiBoldItalic';
-  src: url('./fonts/uni-sans-semibold-italic-webfont.woff') format('woff'), url('./fonts/uni-sans-semibold-italic-webfont.woff2') format('woff2');
+  src: url('./fonts/UniSansBoldItalic.woff') format('woff'), url('./fonts/UniSansBoldItalic.woff2') format('woff2') ;
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'USBookItalic';
-  src: url('./fonts/uni-sans-book-italic-webfont.woff') format('woff'), url('./fonts/uni-sans-book-italic-webfont.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-/********** OTF **********/
-
-@font-face {
-  font-family: 'USThinOTF';
-  src: url('./fonts/UniSansThin.otf') format('opentype');
+  src: url('./fonts/UniSansBookItalic.woff') format('woff'), url('./fonts/UniSansBookItalic.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'USThinOTFItalic';
-  src: url('./fonts/UniSansThinItalic.otf') format('opentype');
+  font-family: 'USHeavyItalic';
+  src: url('./fonts/UniSansHeavyItalic.woff') format('woff'), url('./fonts/UniSansHeavyItalic.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'USItalic';
+  src: url('./fonts/UniSansItalic.woff') format('woff'), url('./fonts/UniSansItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'USSemiBoldItalic';
+  src: url('./fonts/UniSansSemiboldItalic.woff') format('woff'), url('./fonts/UniSansSemiboldItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'USThinItalic';
+  src: url('./fonts/UniSansThinItalic.woff') format('woff'), url('./fonts/UniSansThinItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
