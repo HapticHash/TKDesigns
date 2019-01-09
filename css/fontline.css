@@ -90,3 +90,21 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
+/********** OTF **********/
+
+@font-face {
+  font-family: 'USThinOTF';
+  src: url('./fonts/UniSansThin.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'USThinOTFItalic';
+  src: url('./fonts/UniSansThinItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
