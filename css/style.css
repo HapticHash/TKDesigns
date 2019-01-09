@@ -1,15 +1,17 @@
-@import 'https://cdn.staticaly.com/gh/harshitks2203/TKDesigns/05c4160e/css/fontline.css';
+@import url(//db.onlinewebfonts.com/c/8ffe66475abdfa1443dd4d8ee7883d48?family=UniSansW01-Light);
+@import url(//db.onlinewebfonts.com/c/35b9d1dbf3f5779322e33d4c739dd5e4?family=UniSansW01-HeavyItalic);
+@import url(//db.onlinewebfonts.com/c/279d17e73d9c290a4419d22db8a09089?family=UniSansW01-Italic);
+@import url(//db.onlinewebfonts.com/c/ab804af7699fabaf769911c77bb4d115?family=UniSansW01-Regular);
 
 body {
     background-color: #fff;
     overflow-x: hidden !important;
-    font-family: 'USRegular', sans-serif;
+    font-family: 'UniSansW01-Regular', sans-serif;
     font-weight: 500;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    font-family: 'USRegular', sans-serif , -apple-system, BlinkMacSystemFont; 
-    font-style: italic;
+    font-family: 'UniSansW01-Light', sans-serif , -apple-system, BlinkMacSystemFont; 
     font-weight: 500;
     color: #eee;
 }
@@ -59,8 +61,10 @@ body {
 
 .btn-primary-outline {
     background-color: transparent;
-    border-color: #ccc;
-    color: #FFF
+    border:2px solid #ccc;
+    padding: 10px 2% 10px 2%;
+    color: #FFF;
+    font-family: 'UniSansW01-Light', sans-serif , -apple-system, BlinkMacSystemFont; 
 }
 
 .btn1{
@@ -80,7 +84,7 @@ body {
 }
 
 .desc{
-    font-family: 'USRegular', sans-serif;
+    font-family: 'UniSansW01-Italic', sans-serif;
     text-transform: uppercase;
     color: #111;
     line-height: 1.2;
@@ -127,9 +131,10 @@ body {
 }
 
 .topText{
-    font-family: 'USHeavy', sans-serif , -apple-system, BlinkMacSystemFont; 
+    font-family: 'UniSansW01-HeavyItalic', sans-serif , -apple-system, BlinkMacSystemFont; 
     margin-top: 3rem;
     font-weight: 900;
+    padding-left: 5%; 
     letter-spacing: -0.2px;
     font-size: 5rem;
     color: #000;
@@ -138,7 +143,7 @@ body {
 .btn-dark{
     background-color: #000 !important;
     padding: 10px 1.5rem 10px  1.5rem;
-    font-family: 'USRegular', sans-serif , -apple-system, BlinkMacSystemFont; 
+    font-family: 'UniSansW01-Light', sans-serif , -apple-system, BlinkMacSystemFont; 
     cursor: pointer;
 }
 button:focus {outline:0 !important;}
@@ -157,29 +162,29 @@ button:focus {outline:0 !important;}
 
 .heavy{
     float: left;
-    font-family: 'USHeavy', sans-serif , -apple-system, BlinkMacSystemFont; 
-    font-style: italic;
+    font-family: 'UniSansW01-HeavyItalic', sans-serif , -apple-system, BlinkMacSystemFont; 
+    
 }
 
 .light{
     z-index: -1;
-    font-family: 'USRegular', sans-serif , -apple-system, BlinkMacSystemFont; 
+    font-family: 'UniSansW01-Light', sans-serif , -apple-system, BlinkMacSystemFont; 
     font-size: 11vh;
     font-style: italic;
     padding-top: 2%;
     position: relative;
-    margin-left: -7vw;
+    margin-left: -8vw;
 }
 
 .light img{
     position: absolute;
     top: 0;
-    left: 12vw;
+    left: 15vw;
 }
 
 .shoeRight{
-    width: 230%;
-    margin-top: -20vh;
+    width: 210%;
+    margin-top: -17vh;
 }
 
 .shop {
@@ -192,14 +197,20 @@ button:focus {outline:0 !important;}
 .shop-btn{
     padding: 4vh 10vh;
     font-family: 'UniSansW01-Light', sans-serif , -apple-system, BlinkMacSystemFont; 
-    font-size: 4vh;
+    font-size: 5vh;
     margin-top: 20vh;
 
 }
 
+
+
+
+
 .trans {
     background-color: transparent !important;
 }
+
+
 
 
 /*********** Navbar ***********/
