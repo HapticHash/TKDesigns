@@ -2,6 +2,7 @@
 @import url(//db.onlinewebfonts.com/c/35b9d1dbf3f5779322e33d4c739dd5e4?family=UniSansW01-HeavyItalic);
 @import url(//db.onlinewebfonts.com/c/279d17e73d9c290a4419d22db8a09089?family=UniSansW01-Italic);
 @import url(//db.onlinewebfonts.com/c/ab804af7699fabaf769911c77bb4d115?family=UniSansW01-Regular);
+@import url(//db.onlinewebfonts.com/c/bcbeab8fa70d1d1899cd5c6993cd67b9?family=UniSansW01-Heavy);    
 
 body {
     background-color: #fff;
@@ -200,7 +201,6 @@ button:focus {outline:0 !important;}
     font-size: 5vh;
     margin-top: 20vh;
     box-shadow: 10px 10px 20px 9px #e9e9e9d4;
-
 }
 
 .clear{
@@ -226,6 +226,43 @@ button:focus {outline:0 !important;}
     text-transform: uppercase;
     margin-left: 50%;
 }
+
+.cards {
+    margin-top: 5%;
+}
+
+.middle{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.owl-nav{
+    display: none;
+}
+
+.cardImg {
+    max-height: 75vh;
+}
+
+.prodName{
+    font-family: 'UniSansW01-Heavy', sans-serif , -apple-system, BlinkMacSystemFont; 
+    font-size: 3.5vh;
+    color: #000;
+}
+
+.prodPrice{
+    font-family: 'UniSansW01-Light', sans-serif , -apple-system, BlinkMacSystemFont; 
+    font-size: 3.5vh;
+    color: #000;
+}
+
+.shop-now{
+    padding: 1vh 2vh;
+    font-family: 'UniSansW01-Regular', sans-serif , -apple-system, BlinkMacSystemFont; 
+    font-size: 2vh;
+    box-shadow: 10px 10px 20px 9px #e9e9e9d4;
+}
+
 .trans {
     background-color: transparent !important;
 }

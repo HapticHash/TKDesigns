@@ -16,8 +16,12 @@
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
+
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css" />
+
   <!-- Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -146,7 +150,58 @@
       </div>
     </div>
 
-    
+    <div class="cards" style="background-color: #ededed; padding: 3vw;">
+      <div class="middle">
+        <div class="owl-carousel">
+          
+          <div>       <!-- Card-1 --> 
+            <img class="cardImg" src="./images/hoodie.jpg" alt="addidas hoodie" />
+            <div class="prodDesc" style="padding-top: 4vh; line-height:4vh;">
+              <div class="prodName"> DARK GREEN HOODIE </div>
+              <div class="prodPrice">$12.99 | DELIVERY $2.00 </div>
+              <div class="shopNow">
+                <button type="button" class="btn-dark shop-now">SHOP NOW</button>
+              </div>
+            </div>
+          </div>
+          
+          <div>       <!-- Card-2 --> 
+            <img class="cardImg" src="./images/t-shirt.jpg" alt="addidas t-shirt" />
+            <div class="prodDesc" style="padding-top: 4vh; line-height:4vh;">
+              <div class="prodName"> DARK GREEN HOODIE </div>
+              <div class="prodPrice">$12.99 | DELIVERY $2.00 </div>
+              <div class="shopNow">
+                <button type="button" class="btn-dark shop-now">SHOP NOW</button>
+              </div>
+            </div>
+          </div>
+
+          <div>       <!-- Card-3 --> 
+            <img class="cardImg" src="./images/hoodie2.jpg" alt="addidas hoodie 2" />
+            <div class="prodDesc" style="padding-top: 4vh; line-height:4vh;">
+              <div class="prodName"> DARK GREEN HOODIE </div>
+              <div class="prodPrice">$12.99 | DELIVERY $2.00 </div>
+              <div class="shopNow">
+                <button type="button" class="btn-dark shop-now">SHOP NOW</button>
+              </div>
+            </div>
+          </div>
+
+          <div>       <!-- Card-4 --> 
+            <img class="cardImg" src="./images/hoodie.jpg" alt="addidas hoodie" />
+            <div class="prodDesc" style="padding-top: 4vh; line-height:4vh;">
+              <div class="prodName"> DARK GREEN HOODIE </div>
+              <div class="prodPrice">$12.99 | DELIVERY $2.00 </div>
+              <div class="shopNow">
+                <button type="button" class="btn-dark shop-now">SHOP NOW</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
   </div>
 
 
@@ -163,6 +218,41 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+
+    $(document).ready(function () {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        loop: true,
+        nav: true,
+        margin: 10,
+        responsive: {
+          0: {
+            items: 1
+          },
+          480: {
+            items: 2
+          },
+          768: {
+            items: 3
+          },
+          1024: {
+            items: 3
+          }
+        }
+      });
+      owl.on('mousewheel', '.owl-stage', function (e) {
+        if (e.deltaY > 0) {
+          owl.trigger('next.owl');
+        } else {
+          owl.trigger('prev.owl');
+        }
+        e.preventDefault();
+      });
+    });
+
+  </script>
 </body>
 
 </html>
