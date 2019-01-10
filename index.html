@@ -150,11 +150,16 @@
       </div>
     </div>
 
-    <div class="cards" style="background-color: #ededed; padding: 3vw;">
-      <div class="middle">
+    <div class="row cards" style="background-color: #ededed; padding: 3vw;">
+      <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 my-auto arrowLeft">
+        <!-- <i class="fas fa-angle-left" onclick="goLeft()"></i>  -->
+
+      </div>
+      <div class=" col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10  middle">
         <div class="owl-carousel">
-          
-          <div>       <!-- Card-1 --> 
+
+          <div>
+            <!-- Card-1 -->
             <img class="cardImg" src="./images/hoodie.jpg" alt="addidas hoodie" />
             <div class="prodDesc" style="padding-top: 4vh; line-height:4vh;">
               <div class="prodName"> DARK GREEN HOODIE </div>
@@ -164,9 +169,10 @@
               </div>
             </div>
           </div>
-          
-          <div>       <!-- Card-2 --> 
-            <img class="cardImg" src="./images/t-shirt.jpg" alt="addidas t-shirt" />
+
+          <div>
+            <!-- Card-2 -->
+            <img class="cardImg" src="./images/t-shirt.png" alt="addidas t-shirt" />
             <div class="prodDesc" style="padding-top: 4vh; line-height:4vh;">
               <div class="prodName"> DARK GREEN HOODIE </div>
               <div class="prodPrice">$12.99 | DELIVERY $2.00 </div>
@@ -176,8 +182,9 @@
             </div>
           </div>
 
-          <div>       <!-- Card-3 --> 
-            <img class="cardImg" src="./images/hoodie2.jpg" alt="addidas hoodie 2" />
+          <div>
+            <!-- Card-3 -->
+            <img class="cardImg" src="./images/track.png" alt="addidas hoodie 2" />
             <div class="prodDesc" style="padding-top: 4vh; line-height:4vh;">
               <div class="prodName"> DARK GREEN HOODIE </div>
               <div class="prodPrice">$12.99 | DELIVERY $2.00 </div>
@@ -187,11 +194,36 @@
             </div>
           </div>
 
-          <div>       <!-- Card-4 --> 
+          <div>
+            <!-- Card-4 -->
             <img class="cardImg" src="./images/hoodie.jpg" alt="addidas hoodie" />
             <div class="prodDesc" style="padding-top: 4vh; line-height:4vh;">
               <div class="prodName"> DARK GREEN HOODIE </div>
               <div class="prodPrice">$12.99 | DELIVERY $2.00 </div>
+              <div class="shopNow">
+                <button type="button" class="btn-dark shop-now">SHOP NOW</button>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!-- Card-5 -->
+            <img class="cardImg" src="./images/t-shirt.png" alt="addidas t-shirt" />
+            <div class="prodDesc" style="padding-top: 4vh; line-height:4vh;">
+              <div class="prodName"> BLACK T-SHIRT </div>
+              <div class="prodPrice">$13.99 | DELIVERY $2.00 </div>
+              <div class="shopNow">
+                <button type="button" class="btn-dark shop-now">SHOP NOW</button>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!-- Card-6 -->
+            <img class="cardImg" src="./images/track.png" alt="addidas hoodie 2" />
+            <div class="prodDesc" style="padding-top: 4vh; line-height:4vh;">
+              <div class="prodName"> DARK TRACK HOODIE </div>
+              <div class="prodPrice">$15.99 | DELIVERY $2.00 </div>
               <div class="shopNow">
                 <button type="button" class="btn-dark shop-now">SHOP NOW</button>
               </div>
@@ -199,6 +231,10 @@
           </div>
 
         </div>
+      </div>
+      <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 my-auto arrowRight">
+        <!-- <i class="fas fa-angle-right" onclick="goRight()"></i>  -->
+
       </div>
     </div>
 
@@ -221,12 +257,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script>
 
+
     $(document).ready(function () {
       var owl = $('.owl-carousel');
       owl.owlCarousel({
         loop: true,
         nav: true,
-        margin: 10,
+        navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+        margin: 20,
         responsive: {
           0: {
             items: 1

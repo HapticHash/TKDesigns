@@ -232,17 +232,35 @@ button:focus {outline:0 !important;}
 }
 
 .middle{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
-.owl-nav{
+/* .owl-nav{
     display: none;
+} */
+
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin-left: -20px;
+    display: block !important;
+    border:0px solid black;
 }
 
-.cardImg {
-    max-height: 75vh;
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: -25px;
+    display: block !important;
+    border:0px solid black;
 }
+.owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
+
 
 .prodName{
     font-family: 'UniSansW01-Heavy', sans-serif , -apple-system, BlinkMacSystemFont; 
@@ -261,6 +279,11 @@ button:focus {outline:0 !important;}
     font-family: 'UniSansW01-Regular', sans-serif , -apple-system, BlinkMacSystemFont; 
     font-size: 2vh;
     box-shadow: 10px 10px 20px 9px #e9e9e9d4;
+}
+
+.arrowLeft, .arrowRight{
+    font-family: 'UniSansW01-Heavy', sans-serif , -apple-system, BlinkMacSystemFont; 
+    font-size: 10vh;
 }
 
 .trans {
