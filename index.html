@@ -77,12 +77,14 @@
 
     </div>
 
+    <!--  Navbar Shop button -->
     <div class="row">
       <div class="col text-center btn1">
         <button type="button" class="btn btn-primary-outline">SHOP NOW</button>
       </div>
     </div>
 
+    <!--  Text Dame -->
     <div class="row" style="margin-top: 5rem">
       <div class="col text-center">
         <p class="desc" style=" font-style: italic; font-size: 18px;">The Adidas dame iv (4) was made by <br>
@@ -90,7 +92,8 @@
       </div>
     </div>
 
-    <div class="row main" style="margin-top: 10rem">
+    <!--  Court Kits -->
+    <div class="row main" style="margin-top: 20vh">
       <div class="group px-4">
         <div class="left">
           <div class="texts">
@@ -108,6 +111,7 @@
       </div>
     </div>
 
+    <!--  Shoe Left -->
     <div class="row" style="margin-top: 10rem">
       <div class="col-8">
         <div> <img class="shoeLeft" src="./images/shoe2.png" alt="addidas left shoe" /> </div>
@@ -123,6 +127,7 @@
       </div>
     </div>
 
+    <!--  Collection -->
     <div class="row" style="margin-top: -4%; float: right; width: 50%;">
       <div class="light">
         COLLECTION
@@ -136,6 +141,7 @@
 
     <div class="clear"></div>
 
+    <!--  Quick Shop -->
     <div class="row">
       <div class="col">
         <div class="group1">
@@ -150,12 +156,10 @@
       </div>
     </div>
 
+    <!--  Cards -->
     <div class="row cards" style="background-color: #ededed; padding: 3vw;">
-      <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 my-auto arrowLeft">
-        <!-- <i class="fas fa-angle-left" onclick="goLeft()"></i>  -->
 
-      </div>
-      <div class=" col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10  middle">
+      <div class=" col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11  middle">
         <div class="owl-carousel">
 
           <div>
@@ -232,9 +236,31 @@
 
         </div>
       </div>
-      <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 my-auto arrowRight">
-        <!-- <i class="fas fa-angle-right" onclick="goRight()"></i>  -->
 
+    </div>
+
+    <!--  Parley -->
+    <div class="row main" style="margin-top: 5vh">
+      <div class="group px-4">
+        <div class="left">
+          <div class="texts">
+            <p class="topText"> PARLEY <br> FOR THE <br> OCEANS</p> <br>
+            <p class="desc">What is Parley? <br>
+              Parley is the space and network where creators,<br>
+              Thinkers and leaders come together to raise awareness <br>
+              For the beauty and fragility of the oceans and collaborate on <br>
+              projects that can end their destruction. as a founding member, <br>
+              adidas supports parley in their mission <br>
+              parley is the space and network where creators, <br>
+              thinkers and leaders come together to raise awareness <br>
+              for the beauty an </p>
+
+            <button type="button" class="btn-dark ml-5 mt-3">LEARN MORE</button>
+          </div>
+        </div>
+        <div class="right">
+          <img class="ml-4 pic" src="./images/pic1.png" alt="man with tennis balls as eyes" />
+        </div>
       </div>
     </div>
 
@@ -279,14 +305,6 @@
             items: 3
           }
         }
-      });
-      owl.on('mousewheel', '.owl-stage', function (e) {
-        if (e.deltaY > 0) {
-          owl.trigger('next.owl');
-        } else {
-          owl.trigger('prev.owl');
-        }
-        e.preventDefault();
       });
     });
 

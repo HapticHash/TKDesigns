@@ -228,7 +228,7 @@ button:focus {outline:0 !important;}
 }
 
 .cards {
-    margin-top: 5%;
+    margin-top: 2vh;
 }
 
 .middle{
@@ -236,16 +236,12 @@ button:focus {outline:0 !important;}
     margin: 0 auto;
 }
 
-/* .owl-nav{
-    display: none;
-} */
-
 .owl-prev {
-    width: 15px;
-    height: 100px;
+    width: 2vw;
+    height: 2vh;
     position: absolute;
     top: 40%;
-    margin-left: -20px;
+    margin-left: -4vw;
     display: block !important;
     border:0px solid black;
 }
@@ -255,11 +251,11 @@ button:focus {outline:0 !important;}
     height: 100px;
     position: absolute;
     top: 40%;
-    right: -25px;
+    right: -3vw;
     display: block !important;
     border:0px solid black;
 }
-.owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
+.owl-prev i, .owl-next i {font-size: 10vh; color: #111;}
 
 
 .prodName{
