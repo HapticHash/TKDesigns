@@ -420,3 +420,25 @@ button:focus {outline:0 !important;}
 }
 
 /*********** Footer ***********/
+
+.widget_title{
+    font-family: 'UniSansW01-Heavy', sans-serif , -apple-system, BlinkMacSystemFont; 
+    font-size: 1.6vw;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+}
+
+.widget_text li{
+    font-family: 'UniSansW01-Regular', sans-serif , -apple-system, BlinkMacSystemFont; 
+    font-size: 1.2vw;
+    color: #111;
+    margin:0 0 1.2vh 0;
+}
+.widget_text a {
+    color: #111;
+}
+
+sup{
+    font-size: 0.8vw !important;
+}
