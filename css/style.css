@@ -4,6 +4,9 @@
 @import url(//db.onlinewebfonts.com/c/ab804af7699fabaf769911c77bb4d115?family=UniSansW01-Regular);
 @import url(//db.onlinewebfonts.com/c/bcbeab8fa70d1d1899cd5c6993cd67b9?family=UniSansW01-Heavy);    
 
+html{
+    overflow-x: hidden !important;
+}
 body {
     background-color: #fff;
     overflow-x: hidden !important;
@@ -318,12 +321,20 @@ button:focus {outline:0 !important;}
     font-size: 5rem;
     color: #000;
 }
-.trans {
-    background-color: transparent !important;
+
+.originals{
+    background-image: url('../images/pic3.png');
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'UniSansW01-HeavyItalic', sans-serif , -apple-system, BlinkMacSystemFont; 
+    color: #fff;
+    font-size: 9vw;
 }
 
-
-
+.oldLogo{
+    width: 30%;
+}
 
 /*********** Navbar ***********/
 .mynav{ 
