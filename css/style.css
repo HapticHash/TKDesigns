@@ -14,6 +14,52 @@ body {
     font-weight: 500;
 }
 
+/*********** Navbar ***********/
+.mynav{ 
+    background-image: url("../images/shoe1.png"); 
+    background-repeat: no-repeat;
+    width:100%; 
+    height:950px; 
+    background-repeat: no-repeat;
+    background-size: 100% 103%; 
+}
+
+.navbar{
+    background-color: transparent !important; 
+}
+
+.navbar .navbar-brand{ 
+    color : #FFF; 
+    font-weight: bolder; 
+    font-size: 1.3em; 
+} 
+
+.navbar .navbar-nav{ 
+    margin : 0 auto; 
+} 
+
+.navbar .nav-item a{ 
+    color: #FFF !important; 
+} 
+
+.navbar .dropdown-menu{ 
+    background-color: rgba(0,0,0,0.3); 
+} 
+
+.dropdown-item:hover{ 
+    background-color: rgba(0,0,0,0.3); 
+} 
+
+.navbar form button{ 
+    background-color: #ea00b1; 
+    color:#FFF; 
+    border:0; 
+} 
+
+.navbar form button:hover{ 
+    background-color: #000; 
+}
+
 .navbar-dark .navbar-nav .nav-link {
     font-family: 'UniSansW01-Light', sans-serif , -apple-system, BlinkMacSystemFont; 
     font-weight: 500;
@@ -87,6 +133,8 @@ body {
     box-shadow: none;
 }
 
+/*********** Part A ***********/
+
 .desc{
     font-family: 'UniSansW01-Italic', sans-serif;
     text-transform: uppercase;
@@ -96,6 +144,7 @@ body {
     
 }
 
+/*********** Part B ***********/
 .main{
     height: 100vh;
     width: 100%;
@@ -153,6 +202,8 @@ body {
 
 button:focus {outline:0 !important;}
 
+/*********** Part C ***********/
+
 .shoeLeft{
     width: 100%;
     margin-left: -7vw;
@@ -206,6 +257,8 @@ button:focus {outline:0 !important;}
     margin-top: 20vh;
     box-shadow: 10px 10px 20px 9px #e9e9e9d4;
 }
+
+/*********** Part D ***********/
 
 .clear{
     content: '';
@@ -286,6 +339,8 @@ button:focus {outline:0 !important;}
     font-size: 10vh;
 }
 
+/*********** Part E ***********/
+
 .group3{
     width: 92vw;
     height: 95vh;
@@ -322,63 +377,38 @@ button:focus {outline:0 !important;}
     color: #000;
 }
 
+/*********** Part F ***********/
+
 .originals{
-    background-image: url('../images/pic3.png');
-    background-color: #000;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('../images/pic3.png');
+
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     font-family: 'UniSansW01-HeavyItalic', sans-serif , -apple-system, BlinkMacSystemFont; 
     color: #fff;
-    font-size: 9vw;
+    font-size: 8vw;
 }
 
 .oldLogo{
     width: 30%;
 }
 
-/*********** Navbar ***********/
-.mynav{ 
-    background-image: url("../images/shoe1.png"); 
-    background-repeat: no-repeat;
-    width:100%; 
-    height:950px; 
-    background-repeat: no-repeat;
-    background-size: 100% 103%; 
+.buyBtn{
+    padding: 4vh 6vw ;
+    font-family: 'UniSansW01-Heavy', sans-serif , -apple-system, BlinkMacSystemFont; 
+    font-size: 4vw;
+    color: #000;
+   
 }
 
-.navbar{
-    background-color: transparent !important; 
+.buyBtn:hover{
+    background-color: #fff;
+    color: #000;
 }
 
-.navbar .navbar-brand{ 
-    color : #FFF; 
-    font-weight: bolder; 
-    font-size: 1.3em; 
-} 
-
-.navbar .navbar-nav{ 
-    margin : 0 auto; 
-} 
-
-.navbar .nav-item a{ 
-    color: #FFF !important; 
-} 
-
-.navbar .dropdown-menu{ 
-    background-color: rgba(0,0,0,0.3); 
-} 
-
-.dropdown-item:hover{ 
-    background-color: rgba(0,0,0,0.3); 
-} 
-
-.navbar form button{ 
-    background-color: #ea00b1; 
-    color:#FFF; 
-    border:0; 
-} 
-
-.navbar form button:hover{ 
-    background-color: #000; 
-}
 
