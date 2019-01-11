@@ -411,4 +411,12 @@ button:focus {outline:0 !important;}
     color: #000;
 }
 
+/*********** Socials ***********/
 
+.fab {
+    color: #000;
+    font-size: 3vw;
+    padding: 1.5vw;
+}
+
+/*********** Footer ***********/
