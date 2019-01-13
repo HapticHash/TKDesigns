@@ -18,10 +18,11 @@ body {
 /*********** Navbar ***********/
 .mynav{ 
     background-image: url("../images/shoe1.png"); 
-    width:100%; 
-    height:950px; 
+    /* width:100%;  */
+    height:160vh; 
     background-repeat: no-repeat;
     background-size: cover; 
+    background-position: center;
 }
 
 .navbar{
@@ -118,12 +119,18 @@ body {
 }
 
 .btn1{
-    margin-top: -12vw;
+    position: relative;
+    margin-top: -50vh;
+    margin-left: 5vw;
 }
 
-/* @media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 2560px) {
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: 5em;
+    }
+
     .btn1{
-        margin-top: -28vw;
+        font-size: 5em;
     }
 
 } */
