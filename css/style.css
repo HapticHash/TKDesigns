@@ -124,17 +124,6 @@ body {
     margin-left: 5vw;
 }
 
-/* @media screen and (min-width: 2560px) {
-    .navbar-dark .navbar-nav .nav-link{
-        font-size: 5em;
-    }
-
-    .btn1{
-        font-size: 5em;
-    }
-
-} */
-
 .btn{
     transition: transform .2s;
     box-shadow: none;
@@ -147,7 +136,18 @@ body {
     box-shadow: none;
 }
 
-/*********** Part A ***********/
+@media screen and (min-width: 2560px) {
+    /* .navbar-dark .navbar-nav .nav-link{
+        font-size: 5em;
+    } */
+
+    .btn1, .btn{
+        font-size: 1vw;
+    }
+
+}
+
+/*********** Part A == Adidas Dame IV ***********/
 
 .desc{
     font-family: 'UniSansW01-Italic', sans-serif;
@@ -155,10 +155,20 @@ body {
     color: #111;
     line-height: 1.2;
     font-size: 16px;
-    
 }
 
-/*********** Part B ***********/
+@media screen and (min-width: 2560px) {
+    .desc {
+        font-size: 1.3vw !important;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .desc{
+        font-size: 1.5vw !important;
+    }
+}
+
+/*********** Part B == Court Kits ***********/
 .main{
     height: 100vh;
     width: 100%;
@@ -216,7 +226,34 @@ body {
 
 button:focus {outline:0 !important;}
 
-/*********** Part C ***********/
+@media screen and (min-width: 1440px) {
+
+    .topText{
+        font-size: 8rem !important;
+    }
+
+    .btn-dark{
+        padding: 20px 3.5rem;
+        font-size: 1.6vw;
+    }
+
+    .desc {
+        font-size: 1.3vw;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .topText{
+        font-size: 12rem !important;
+    }
+
+    .btn-dark{
+        padding: 30px 5.5rem;
+        font-size: 2vw;
+    }
+}
+
+/*********** Part C == NMD Collection ***********/
 
 .shoeLeft{
     width: 100%;
@@ -272,7 +309,7 @@ button:focus {outline:0 !important;}
     box-shadow: 10px 10px 20px 9px #e9e9e9d4;
 }
 
-/*********** Part D ***********/
+/*********** Part D == Quick Shop ***********/
 
 .clear{
     content: '';
@@ -353,21 +390,22 @@ button:focus {outline:0 !important;}
     font-size: 10vh;
 }
 
-/*********** Part E ***********/
+/*********** Part E == Parley for the Oceans ***********/
 
 .group3{
     width: 92vw;
-    height: 98vh;
+    height: 85vh;
     background-color: #ededed;
     flex-direction: row;
     display: flex;
 }
 
-.left, .right2 {
-    width: 50%;
+.left2 {
+    width: 60%;
   }
   
   .right2 {
+      width: 40%;
     display: flex;
     align-items: center;
     padding-right: 2rem;
@@ -376,9 +414,10 @@ button:focus {outline:0 !important;}
   .right2 img {
     object-fit: contain;
     min-height: 80vh;
-    width: 100%;
+    width: 115%;
     height: 100%;
-    margin-top: -15vh;
+    margin-top: -40vh;
+    margin-left: -5vw; 
   }
 
   .topText2{
@@ -391,7 +430,45 @@ button:focus {outline:0 !important;}
     color: #000;
 }
 
-/*********** Part F ***********/
+.desc2{
+    font-family: 'UniSansW01-Italic', sans-serif;
+    text-transform: uppercase;
+    color: #111;
+    line-height: 1.2;
+    font-size: 16px;
+    margin-bottom: 2vh;
+}
+
+@media screen and (min-width: 1024px) {
+    .right2 img {
+        margin-top: -40vh;
+        margin-left: -4vw; 
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .right2 img {
+        margin-top: -35vh;
+    }
+
+}
+
+@media screen and (min-width: 2560px) {
+    .topText2{
+        font-size: 10rem !important;
+    }
+
+    .right2 img {
+        margin-top: -30vh;
+    }
+    .desc2{
+        font-size: 2.14rem !important;
+    }
+}
+
+
+/*********** Part F == Adidas Originals ***********/
 
 .originals{
     background: 
