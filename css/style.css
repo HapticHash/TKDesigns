@@ -35,9 +35,6 @@ body {
     font-size: 1.3em; 
 } 
 
-.navbar .navbar-nav{ 
-    margin : 0 auto; 
-} 
 
 .navbar .nav-item a{ 
     color: #FFF !important; 
@@ -97,6 +94,12 @@ body {
     box-shadow: none;
 }
 
+.container {
+    max-width: 95% !important;
+    display: flex;
+    justify-content: space-between; 
+}
+
 .fas{
     cursor: pointer;
 }
@@ -108,6 +111,8 @@ body {
     z-index: 2;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    justify-content: end;
+    margin-left: auto;
 }
 
 .btn-primary-outline {
@@ -141,6 +146,10 @@ body {
         font-size: 5em;
     } */
 
+    .navbar-nav, .search{
+        font-size: 1vw;
+    }
+
     .btn1, .btn{
         font-size: 1vw;
     }
@@ -157,14 +166,14 @@ body {
     font-size: 16px;
 }
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 1440px) {
     .desc {
         font-size: 1.3vw !important;
     }
 }
 @media screen and (min-width: 2560px) {
     .desc{
-        font-size: 1.5vw !important;
+        font-size: 1.7vw !important;
     }
 }
 
@@ -244,13 +253,18 @@ button:focus {outline:0 !important;}
 
 @media screen and (min-width: 2560px) {
     .topText{
-        font-size: 12rem !important;
+        font-size: 9rem !important;
     }
 
     .btn-dark{
         padding: 30px 5.5rem;
         font-size: 2vw;
     }
+
+    .desc {
+        font-size: 1.8rem !important;
+    }
+
 }
 
 /*********** Part C == NMD Collection ***********/
@@ -394,7 +408,7 @@ button:focus {outline:0 !important;}
 
 .group3{
     width: 92vw;
-    height: 85vh;
+    height: 95vh;
     background-color: #ededed;
     flex-direction: row;
     display: flex;
@@ -426,7 +440,7 @@ button:focus {outline:0 !important;}
     font-weight: 900;
     padding-left: 5%; 
     letter-spacing: -0.2px;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #000;
 }
 
@@ -435,13 +449,13 @@ button:focus {outline:0 !important;}
     text-transform: uppercase;
     color: #111;
     line-height: 1.2;
-    font-size: 16px;
+    font-size: 1.1vw;
     margin-bottom: 2vh;
 }
 
 @media screen and (min-width: 1024px) {
     .right2 img {
-        margin-top: -40vh;
+        margin-top: -30vh;
         margin-left: -4vw; 
     }
 
@@ -456,14 +470,14 @@ button:focus {outline:0 !important;}
 
 @media screen and (min-width: 2560px) {
     .topText2{
-        font-size: 10rem !important;
+        font-size: 9rem !important;
     }
 
     .right2 img {
         margin-top: -30vh;
     }
     .desc2{
-        font-size: 2.14rem !important;
+        font-size: 1.8rem !important;
     }
 }
 
