@@ -21,8 +21,8 @@ P.S. Make sure you have ``` git bash``` installed in your local machine.
 ##  :checkered_flag: Things to do
 - [x] Basic layout for 1440p (my current display)
 - [x] Optimize it for 1024p and above displays 
-- [ ] Optimize it for Mobile Devices
-- [ ] Fix other issues (if got one)
+
+NOTE: This website is only for Laptops and Desktop. Please do not visit this in Mobile devices.
 
 ##  :busts_in_silhouette: Authors
 
