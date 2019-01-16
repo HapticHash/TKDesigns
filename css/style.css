@@ -233,21 +233,44 @@ body {
     cursor: pointer;
 }
 
+.descr{
+    font-family: 'UniSansW01-Italic', sans-serif;
+    text-transform: uppercase;
+    color: #111;
+    line-height: 1.2;
+    font-size: 16px;
+}
+
 button:focus {outline:0 !important;}
+
+@media screen and (min-width: 1024px) {
+    .topText{
+        font-size: 4rem !important;
+    }
+
+    .btn-dark{
+        padding: 1.2rem 3.5rem;
+        font-size: 1.5vw;
+    }
+
+    .descr {
+        font-size: 1.3vw;
+    }
+}
 
 @media screen and (min-width: 1440px) {
 
     .topText{
-        font-size: 8rem !important;
+        font-size: 5rem !important;
     }
 
     .btn-dark{
-        padding: 20px 3.5rem;
-        font-size: 1.6vw;
+        padding: 1.2rem 3.5rem;
+        font-size: 1.4vw;
     }
 
-    .desc {
-        font-size: 1.3vw;
+    .descr {
+        font-size: 1.2vw;
     }
 }
 
@@ -258,7 +281,7 @@ button:focus {outline:0 !important;}
 
     .btn-dark{
         padding: 30px 5.5rem;
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     .desc {
@@ -455,10 +478,13 @@ button:focus {outline:0 !important;}
 
 @media screen and (min-width: 1024px) {
     .right2 img {
-        margin-top: -30vh;
+        margin-top: -35vh;
         margin-left: -4vw; 
     }
 
+    .desc2{
+        font-size: 1.3vw !important;
+    }
 }
 
 @media screen and (min-width: 1440px) {
