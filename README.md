@@ -2,7 +2,7 @@
 Here is a innovative alternate of Adidas Store which was designed by Tekelijah (aka Tek_king). 
 
 ##  :mag_right: Project Overview
-![Layout](https://harshitks2203.github.io/TKDesigns/design/ui_overview.jpg)
+![Layout](https://HapticHash.github.io/TKDesigns/design/ui_overview.jpg)
 
 ##  :wrench: Built With
 * [Bootstrap v4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - Its is an open source toolkit for developing with HTML, CSS, and JS.
