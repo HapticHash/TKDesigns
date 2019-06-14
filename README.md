@@ -27,7 +27,7 @@ NOTE: This website is only for Laptops and Desktop. Please do not visit this in 
 ##  :busts_in_silhouette: Authors
 
 * **Tek King** - *Designer* - [Instagram](http://instagram.com/tek_king/)
-* **Harshit Singh** - *Web Development* - [Github](https://github.com/harshitks2203)
+* **Harshit Singh** - *Web Development* - [Github](https://github.com/HapticHash)
 
 ##  :page_facing_up: License
 
